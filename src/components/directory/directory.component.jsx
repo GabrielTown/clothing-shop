@@ -1,4 +1,4 @@
-import CategoryItem from '../category-item/catiegory-item.component';
+import CategoryItem from '../category-item/category-item.component';
 
 import './directory.styles.scss';
 
