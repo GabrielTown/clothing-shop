@@ -6,15 +6,17 @@ import {
   GoogleAuthProvider,
 } from 'firebase/auth';
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyDDU4V-_QV3M8GyhC9SVieRTDM4dbiT0Yk',
-  authDomain: 'crwn-clothing-db-98d4d.firebaseapp.com',
-  projectId: 'crwn-clothing-db-98d4d',
-  storageBucket: 'crwn-clothing-db-98d4d.appspot.com',
-  messagingSenderId: '626766232035',
-  appId: '1:626766232035:web:506621582dab103a4d08d6',
+  apiKey: "AIzaSyB4gTngYdI9fW5C2xmLL1pUSqbZoA5PTKI",
+  authDomain: "react-udemy-store-db.firebaseapp.com",
+  projectId: "react-udemy-store-db",
+  storageBucket: "react-udemy-store-db.appspot.com",
+  messagingSenderId: "96628268544",
+  appId: "1:96628268544:web:8dae06c9f846a7e94942e5"
 };
 
+// Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);
 
 const provider = new GoogleAuthProvider();
